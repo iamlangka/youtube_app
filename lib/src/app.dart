@@ -13,7 +13,6 @@ class App extends GetView<AppController> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
       body: Obx(() {
         switch (RouteName.values[controller.currentIndex.value]) {
           case RouteName.Home:
